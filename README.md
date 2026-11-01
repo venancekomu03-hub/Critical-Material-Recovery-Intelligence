@@ -123,3 +123,12 @@ The trained model checkpoint and full dataset are not included
 in the repository. To reproduce the detector, download the
 dataset linked above and follow the training instructions.
 
+
+## Project Visualizations
+
+### Monte Carlo Simulation Performance
+![Monte Carlo Benchmark](results/benchmark.png)
+
+### Critical-Material Recovery Uncertainty
+![Recovery Uncertainty](results/material_uncertainty.png)
+
