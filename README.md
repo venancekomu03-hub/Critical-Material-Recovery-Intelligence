@@ -115,5 +115,11 @@ The trained model is approximately 6.2 MB and is excluded from Git tracking.
 
 To run the full pipeline, place a compatible trained model at the path above and download the PCB dataset linked in the Dataset section.
 
-The repository includes the analysis code, tests, and example visualizations. It does not currently include a training script or a downloadable checkpoint, so reproducing the exact trained detector requires additional setup.
+The repository includes a reproducible YOLOv8 training script
+(`src/train_model.py`), automated tests, quantitative analysis
+pipelines, and example visualizations.
+
+The trained model checkpoint and full dataset are not included
+in the repository. To reproduce the detector, download the
+dataset linked above and follow the training instructions.
 
