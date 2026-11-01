@@ -104,3 +104,16 @@ The standalone NumPy benchmark measures simulation performance, not full object-
 [PCB Board Component Dataset — Roboflow Universe, Version 2](https://universe.roboflow.com/pcbboard/pcb-board-component/dataset/2)
 
 License: CC BY 4.0.
+
+## Trained Model Setup
+
+The component detection stage requires a trained YOLOv8 model at:
+
+`runs/detect/results/pcb_detector/weights/best.pt`
+
+The trained model is approximately 6.2 MB and is excluded from Git tracking.
+
+To run the full pipeline, place a compatible trained model at the path above and download the PCB dataset linked in the Dataset section.
+
+The repository includes the analysis code, tests, and example visualizations. It does not currently include a training script or a downloadable checkpoint, so reproducing the exact trained detector requires additional setup.
+
