@@ -1,0 +1,19 @@
+# Python environment and cache
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Training artifacts and datasets
+datasets/
+runs/
+*.pt
+
+# Generated outputs
+results/*
+!results/material_uncertainty.png
+!results/variance_sensitivity.png
+!results/benchmark.png
+
+# Editor settings
+.vscode/
