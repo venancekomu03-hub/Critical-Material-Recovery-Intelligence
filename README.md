@@ -51,6 +51,26 @@ Uses local sensitivity and Sobol indices to identify which input assumptions con
 
 Measures execution time and throughput across 1,000 to 1,000,000 vectorized NumPy simulations.
 
+## Scientific Assumptions & Limitations
+
+### Modeling Assumptions
+- Material quantities use illustrative component-level composition assumptions.
+- Material presence probabilities represent uncertainty in component composition.
+- Recovery efficiencies are scenario-based, not experimentally validated.
+- Monte Carlo simulation propagates uncertainty through recovery estimates.
+- Sensitivity analysis identifies influential modeling assumptions.
+
+### Important Limitations
+- Visual detection does not confirm chemical composition.
+- Component subtypes and actual material content are not independently verified.
+- The 5th–95th percentile intervals reflect simulated uncertainty, not validated real-world confidence intervals.
+- Results represent preliminary recovery-potential screening, not certified material inventories.
+
+### Reproducibility
+The repository includes Python analysis scripts, unit tests, benchmarking utilities, and visualizations.
+
+Reproducing the complete detection pipeline requires the PCB dataset and trained YOLOv8 weights.
+
 ## Results & Visualizations
 
 ### Material Recovery Uncertainty
